@@ -1,0 +1,18 @@
+{
+  "protocol": "standard",
+  "alpha_osnet": 0.45,
+  "alpha_irra": 0.8,
+  "krecip_k1_k2_lambda": [
+    20,
+    6,
+    0.3
+  ],
+  "rerank_topn": 200,
+  "qe_k": 8,
+  "bootstrap": "5000 resamples, identity-level",
+  "seed": 0,
+  "held_out_queries": 1032,
+  "held_out_identities": 225,
+  "resolution_matching": true,
+  "limit": 0
+}

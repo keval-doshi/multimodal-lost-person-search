@@ -1,0 +1,27 @@
+gallery,stage,mAP,lo,hi
+native,photograph only,37.26,35.4,39.12
+native,+ description (fusion),48.62,46.55,50.63
+native,+ averaged captions,52.26,50.25,54.24
+native,+ averaged photographs,58.06,56.09,60.02
+native,+ query expansion,58.39,56.3,60.44
+native,+ k-reciprocal,60.44,58.29,62.61
+native,+ resolution matching,60.5,58.37,62.63
+native,without fusion,52.35,-9.61,-6.67
+native,without avg_captions,55.68,-5.82,-3.82
+native,without avg_photos,56.29,-5.08,-3.33
+native,without qe,61.5,0.59,1.43
+native,without krecip,58.42,-2.49,-1.64
+native,without resmatch,60.44,-0.18,0.04
+mixed,photograph only,24.92,23.52,26.27
+mixed,+ description (fusion),34.8,33.19,36.45
+mixed,+ averaged captions,37.26,35.67,38.83
+mixed,+ averaged photographs,41.18,39.57,42.79
+mixed,+ query expansion,41.19,39.52,42.87
+mixed,+ k-reciprocal,42.77,40.96,44.53
+mixed,+ resolution matching,42.94,41.17,44.71
+mixed,without fusion,34.89,-9.18,-6.93
+mixed,without avg_captions,39.96,-3.67,-2.33
+mixed,without avg_photos,40.37,-3.19,-1.99
+mixed,without qe,45.19,1.91,2.59
+mixed,without krecip,41.41,-1.85,-1.21
+mixed,without resmatch,42.77,-0.44,0.11

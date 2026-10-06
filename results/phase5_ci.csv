@@ -1,0 +1,11 @@
+branch,comparison,diff_mAP,lo,hi,n_queries,significant
+osnet,fusion over image alone,10.435,9.786,11.09,2064,True
+osnet,fusion over text alone,11.068,10.426,11.723,2064,True
+osnet,tuned over fixed 0.5,0.022,-0.064,0.107,2064,False
+osnet,quality-aware over tuned,0.0,0.0,0.0,2064,False
+osnet,detectable threshold,0.0,,,2064,
+irra,fusion over image alone,0.95,0.769,1.126,2064,True
+irra,fusion over text alone,15.595,14.804,16.375,2064,True
+irra,tuned over fixed 0.5,2.138,1.815,2.468,2064,True
+irra,quality-aware over tuned,0.064,-0.009,0.137,2064,False
+irra,detectable threshold,0.073,,,2064,

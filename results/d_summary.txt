@@ -1,0 +1,38 @@
+====================================================================================================
+A  RESOLUTION STUDY - one photograph vs one description, held-out identities, end-to-end mAP
+   difference = photograph minus description, paired identity-level 95% interval (* excludes 0)
+====================================================================================================
+level      OSNet    IRRA    desc              OSNet - desc               IRRA - desc
+native     30.45   46.18   27.81   +2.64 [+0.19,+4.99] *  +18.36 [+16.35,+20.40] *
+96px       30.01   47.49   28.26   +1.74 [-0.63,+4.10]    +19.22 [+17.21,+21.29] *
+64px       28.17   46.74   27.20   +0.97 [-1.40,+3.28]    +19.54 [+17.56,+21.60] *
+48px       25.03   44.30   25.20   -0.17 [-2.47,+2.10]    +19.09 [+17.14,+21.09] *
+32px       17.48   35.94   19.57   -2.09 [-4.04,-0.14] *  +16.38 [+14.45,+18.36] *
+24px       11.23   26.11   14.51   -3.28 [-4.91,-1.67] *  +11.60 [+9.96,+13.36] *
+16px        3.60   13.84    8.74   -5.13 [-6.50,-3.91] *   +5.10 [+3.86,+6.47] *
+   retained at 16 px: OSNet        11.8%
+   retained at 16 px: IRRA         30.0%
+   retained at 16 px: description  31.4%
+
+====================================================================================================
+B  PER-CANDIDATE QUALITY WEIGHTING vs TUNED CONSTANT (mixed gallery, fitted on validation)
+====================================================================================================
+  osnet  fitted centre 0.50 slope +0.00 | rule 33.99 vs constant 33.99 (a=0.50) ->  +0.00 [+0.00,+0.00]  
+  irra   fitted centre 0.90 slope -0.25 | rule 39.93 vs constant 39.59 (a=0.90) ->  +0.34 [+0.13,+0.54] *
+
+====================================================================================================
+C  EXPLORATORY ANALYSES (held-out identities, native gallery, OSNet branch)
+====================================================================================================
+  correct results in top 10: photo 5.56 | description 4.47 | both 1.96 | union 8.06
+  overlap / union 0.237 | description finds missed by photo 56% | photo finds missed by description 65%
+  two independently written descriptions: mean |difference| description alone 16.73, fused 10.17; reduction  +6.56 [+5.11,+8.05] *
+  searches whose two descriptions differ by >40 points: 11.9% of searches (121 of 1016)
+  averaging two descriptions vs the first:  +7.40 [+6.20,+8.61] *  (26.11 -> 33.51)
+  description length (words) vs description-only mAP: <18 23.9 (n=143), 18-24 24.9 (n=569), 24-30 28.9 (n=288), >30 38.3 (n=16)
+  camera coverage vs ground truth (top 20, complete system): 2120/2858 = 74.2%  (mean 2.81 cameras per person)
+
+====================================================================================================
+D  CONFIDENCE - quintile thresholds fixed on VALIDATION, applied to held-out identities
+====================================================================================================
+  Rank-1 by confidence band: lowest 64% [56,71] n=217 | second 67% [59,74] n=197 | middle 74% [68,81] n=191 | fourth 75% [69,81] n=214 | highest 72% [65,79] n=197
+  overall Rank-1 70.4%

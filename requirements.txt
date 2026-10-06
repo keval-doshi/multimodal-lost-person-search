@@ -1,0 +1,25 @@
+# Install PyTorch with CUDA FIRST, using the command for your system from
+# https://pytorch.org/get-started/locally/  (the default pip build is CPU-only)
+torch
+torchvision
+
+# Detection
+ultralytics
+
+# Images, data and statistics
+opencv-python
+numpy
+pandas
+scipy
+pyarrow
+matplotlib
+
+# IRRA text tokenizer
+ftfy
+regex
+
+# Demo interface
+gradio
+
+# verify_tables.py
+python-docx

@@ -1,0 +1,41 @@
+gallery,method,mAP,lo,hi
+native gallery,fixed query,35.99,34.75,37.26
+native gallery,resolution-matched,35.56,34.33,36.81
+native gallery,"fixed query, fused",47.65,46.25,49.04
+native gallery,"matched, fused",47.6,46.18,48.99
+native gallery,"matched below 20px, fused",47.65,46.25,49.04
+native gallery,"matched below 28px, fused",47.64,46.24,49.04
+native gallery,"matched below 40px, fused",47.62,46.22,49.01
+native gallery,"matched below 56px, fused",47.59,46.19,48.98
+mixed resolution,fixed query,23.9,23.0,24.83
+mixed resolution,resolution-matched,21.13,20.25,22.03
+mixed resolution,"fixed query, fused",33.71,32.65,34.81
+mixed resolution,"matched, fused",34.38,33.27,35.51
+mixed resolution,"matched below 20px, fused",34.18,33.07,35.31
+mixed resolution,"matched below 28px, fused",34.46,33.35,35.59
+mixed resolution,"matched below 40px, fused",34.47,33.36,35.59
+mixed resolution,"matched below 56px, fused",34.37,33.25,35.49
+all crops at 48px,fixed query,29.21,28.1,30.36
+all crops at 48px,resolution-matched,28.49,27.36,29.6
+all crops at 48px,"fixed query, fused",42.14,40.81,43.48
+all crops at 48px,"matched, fused",41.94,40.59,43.31
+all crops at 48px,"matched below 20px, fused",42.14,40.81,43.48
+all crops at 48px,"matched below 28px, fused",42.14,40.81,43.48
+all crops at 48px,"matched below 40px, fused",42.14,40.81,43.48
+all crops at 48px,"matched below 56px, fused",41.94,40.59,43.31
+all crops at 32px,fixed query,20.58,19.66,21.54
+all crops at 32px,resolution-matched,18.87,17.96,19.79
+all crops at 32px,"fixed query, fused",33.27,32.09,34.48
+all crops at 32px,"matched, fused",32.78,31.6,33.97
+all crops at 32px,"matched below 20px, fused",33.27,32.09,34.48
+all crops at 32px,"matched below 28px, fused",33.27,32.09,34.48
+all crops at 32px,"matched below 40px, fused",32.78,31.6,33.97
+all crops at 32px,"matched below 56px, fused",32.78,31.6,33.97
+all crops at 16px,fixed query,4.16,3.85,4.5
+all crops at 16px,resolution-matched,5.66,5.24,6.09
+all crops at 16px,"fixed query, fused",10.69,10.1,11.33
+all crops at 16px,"matched, fused",13.5,12.77,14.25
+all crops at 16px,"matched below 20px, fused",13.5,12.77,14.25
+all crops at 16px,"matched below 28px, fused",13.5,12.77,14.25
+all crops at 16px,"matched below 40px, fused",13.5,12.77,14.25
+all crops at 16px,"matched below 56px, fused",13.5,12.77,14.25

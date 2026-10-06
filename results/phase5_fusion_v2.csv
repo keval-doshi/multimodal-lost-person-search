@@ -1,0 +1,21 @@
+branch,setting,method,alpha,mAP,Rank-1
+osnet,band,0-24px,0.3,15.9,
+osnet,band,24-40px,0.4,29.16,
+osnet,band,40-72px,0.5,43.67,
+osnet,band,72-128px,0.4,47.52,
+osnet,band,128-+px,0.5,58.83,
+osnet,mixed,image only,1.0,24.93,60.17
+osnet,mixed,text only,0.0,24.29,45.78
+osnet,mixed,fixed 0.5,0.5,35.34,69.28
+osnet,mixed,tuned fixed,0.45,35.36,68.99
+osnet,mixed,quality-aware,,35.34,69.28
+irra,band,0-24px,0.7,18.79,
+irra,band,24-40px,0.8,35.67,
+irra,band,40-72px,0.8,51.2,
+irra,band,72-128px,0.9,53.4,
+irra,band,128-+px,0.7,62.98,
+irra,mixed,image only,1.0,38.94,73.26
+irra,mixed,text only,0.0,24.29,45.78
+irra,mixed,fixed 0.5,0.5,37.75,69.04
+irra,mixed,tuned fixed,0.8,39.89,73.16
+irra,mixed,quality-aware,,39.87,73.16

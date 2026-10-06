@@ -1,0 +1,4 @@
+method,Rank-1,Rank-5,Rank-10,mAP,queries
+photo_osnet,63.10,76.62,81.62,35.99,2057
+text_irra,45.96,62.88,70.27,31.99,4114
+photo_irra,74.57,85.12,88.38,52.90,2057
